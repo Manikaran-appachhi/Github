@@ -105,7 +105,7 @@ while flag:
 	testers=open('new_testers.txt', 'a')
 
 
-	to_start=there.index(start_user)
+	to_start=there.index(start_user)+1
 
 	print (len(there), len(set(there)))
 
