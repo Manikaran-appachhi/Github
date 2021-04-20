@@ -81,7 +81,8 @@ def verify_email(email):
 
 options = Options()
 options.headless = True
-driver= webdriver.Firefox(options=options)
+
+driver= webdriver.Firefox(options=options,executable_path="/usr/local/bin/geckodriver")
 git_obj=Github(driver)
 git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
 
@@ -113,28 +114,30 @@ while flag:
 
 		git_obj.get_details(tester)
 		df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
-		df.drop_duplicates(subset='Github', keep='first',inplace=True)
+		df.drop_duplicates(subset='Email', keep='first',inplace=True)
 		df.to_csv("new_testers_dataset.csv", index=False)
 
 
 		if (type(git_obj.Email)!=float):
 
+			if git_obj.Email == list(df['Email'])[-1]:
+
 			
 			#t=time.localtime(time.time())
 			#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
 
-			if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
-				print('deliverable ya risky')
+				if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
+					print('deliverable ya risky')
 
-				if num % 2==0:
-					listId=random.choice(['6123215','6283504','6283507','6283509'])
-					#new_df=pd.concat([new_df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)		
-				else:
-					listId='6291305'
+					if num % 2==0:
+						listId=random.choice(['6123215','6283504','6283507','6283509'])
+						#new_df=pd.concat([new_df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)		
+					else:
+						listId='6291305'
 
-				add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
+					add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
 
-
+			
 
 
 

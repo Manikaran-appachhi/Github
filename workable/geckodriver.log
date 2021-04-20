@@ -293,3 +293,68 @@ JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 455: TypeError: this.contentWindow is null
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618899460420	geckodriver	INFO	Listening on 127.0.0.1:39851
+1618899460424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehmOW2C"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16188): GLib-GObject-CRITICAL **: 11:47:41.866: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16205): GLib-GObject-CRITICAL **: 11:47:41.989: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:16271): GLib-GObject-CRITICAL **: 11:47:43.389: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618899463546	Marionette	INFO	Listening on port 38349
+1618899463663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+1618901469003	geckodriver	INFO	Listening on 127.0.0.1:57855
+1618901469008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB2Vh7U"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16857): GLib-GObject-CRITICAL **: 12:21:10.420: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16876): GLib-GObject-CRITICAL **: 12:21:10.581: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:16946): GLib-GObject-CRITICAL **: 12:21:12.112: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618901472227	Marionette	INFO	Listening on port 37767
+1618901472347	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B0008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
