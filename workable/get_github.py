@@ -172,9 +172,10 @@ try:
 
 
 except:
+	flag= False
 	driver.close()
 	driver.quit()
-	
+
 
 
 

@@ -465,3 +465,4 @@ JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.
 JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619502982607	Marionette	INFO	Stopped listening on port 40545
