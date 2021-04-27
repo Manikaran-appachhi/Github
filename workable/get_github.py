@@ -100,76 +100,81 @@ flag=True
 df=pd.read_csv("new_testers_dataset.csv")
 new_df=pd.DataFrame(columns=["Name","Github","Email"])
 
-while flag:
-	remove_duplicate('new_testers.txt')
-	start_user=list(df['Github'])[-1]
+try:
+
+	while flag:
+		remove_duplicate('new_testers.txt')
+		start_user=list(df['Github'])[-1]
 
 
 
-	testers=open('new_testers.txt', 'r')
-	there=[i.strip() for i in testers]
-	testers.close()
-
-	testers=open('new_testers.txt', 'a')
-
-
-	to_start=there.index(start_user)+1
-
-	print (len(there), len(set(there)))
-
-	for num,tester in enumerate(there[to_start:]):
-
-		git_obj.get_details(tester)
-		df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
-		df.drop_duplicates(subset='Email', keep='first',inplace=True)
-		df.to_csv("new_testers_dataset.csv", index=False)
-
-
-		if (type(git_obj.Email)!=float):
-
-			if git_obj.Email == list(df['Email'])[-1]:
-
-				print (git_obj.Email)
-			#t=time.localtime(time.time())
-			#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
-
-				if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
-					print('deliverable ya risky')
-
-					if num % 2==0:
-						listId=random.choice(['6123215','6283504','6283507','6283509'])
-						#new_df=pd.concat([new_df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)		
-					else:
-						listId='6291305'
-
-					add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
-
-			
-
-
-
-
-		for user in git_obj.get_followers(tester):
-			testers.write(user+'\n')
+		testers=open('new_testers.txt', 'r')
+		there=[i.strip() for i in testers]
 		testers.close()
+
 		testers=open('new_testers.txt', 'a')
 
-		#time.sleep(5)
 
-		for user in git_obj.get_following(tester):
-			testers.write(user+'\n')
-		testers.close()
-		testers=open('new_testers.txt', 'a')
+		to_start=there.index(start_user)+1
 
-		print (f"tester: {tester}")
+		print (len(there), len(set(there)))
 
-		#time.sleep(4)
+		for num,tester in enumerate(there[to_start:]):
 
-	to_start=tester
-	print (f"to_start: {to_start}")
+			git_obj.get_details(tester)
+			df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
+			df.drop_duplicates(subset='Email', keep='first',inplace=True)
+			df.to_csv("new_testers_dataset.csv", index=False)
 
 
+			if (type(git_obj.Email)!=float):
 
+				if git_obj.Email == list(df['Email'])[-1]:
+
+					print (git_obj.Email)
+				#t=time.localtime(time.time())
+				#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
+
+					if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
+						print('deliverable ya risky')
+
+						if num % 2==0:
+							listId=random.choice(['6123215','6283504','6283507','6283509'])
+							#new_df=pd.concat([new_df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)		
+						else:
+							listId='6291305'
+
+						add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
+
+				
+
+
+
+
+			for user in git_obj.get_followers(tester):
+				testers.write(user+'\n')
+			testers.close()
+			testers=open('new_testers.txt', 'a')
+
+			#time.sleep(5)
+
+			for user in git_obj.get_following(tester):
+				testers.write(user+'\n')
+			testers.close()
+			testers=open('new_testers.txt', 'a')
+
+			print (f"tester: {tester}")
+
+			#time.sleep(4)
+
+		to_start=tester
+		print (f"to_start: {to_start}")
+
+
+except:
+	driver.close()
+	driver.quit()
+	
 
 
 
