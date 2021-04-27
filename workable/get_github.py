@@ -106,6 +106,8 @@ try:
 		remove_duplicate('new_testers.txt')
 		start_user=list(df['Github'])[-1]
 
+		print (1)
+
 
 
 		testers=open('new_testers.txt', 'r')
@@ -120,16 +122,22 @@ try:
 		print (len(there), len(set(there)))
 
 		for num,tester in enumerate(there[to_start:]):
+			print (2)
 
 			git_obj.get_details(tester)
+			print (3)
 			df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
+			print (4)
 			df.drop_duplicates(subset='Email', keep='first',inplace=True)
+			print (5)
 			df.to_csv("new_testers_dataset.csv", index=False)
-
+			print (6)
 
 			if (type(git_obj.Email)!=float):
+				print (7)
 
 				if git_obj.Email == list(df['Email'])[-1]:
+					
 
 					print (git_obj.Email)
 				#t=time.localtime(time.time())
