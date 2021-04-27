@@ -81,10 +81,17 @@ def verify_email(email):
 
 options = Options()
 options.headless = True
+options.add_argument("user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166")
 
 driver= webdriver.Firefox(options=options,executable_path="/usr/local/bin/geckodriver")
 git_obj=Github(driver)
-git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+cookies = pickle.load(open("Github_cookies.pkl", "rb"))
+for cookie in cookies:
+    driver.add_cookie(cookie)
+#git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+
+#time.sleep(5)
+#pickle.dump( driver.get_cookies() , open("Github_cookies.pkl","wb"))
 
 
 
@@ -122,7 +129,7 @@ while flag:
 
 			if git_obj.Email == list(df['Email'])[-1]:
 
-			
+				print (git_obj.Email)
 			#t=time.localtime(time.time())
 			#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
 
