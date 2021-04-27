@@ -85,13 +85,16 @@ options.add_argument("user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1;
 
 driver= webdriver.Firefox(options=options,executable_path="/usr/local/bin/geckodriver")
 git_obj=Github(driver)
+
+'''
 cookies = pickle.load(open("Github_cookies.pkl", "rb"))
 for cookie in cookies:
    driver.add_cookie(cookie)
-#git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+ '''
+git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
 
-#time.sleep(5)
-#pickle.dump( driver.get_cookies() , open("Github_cookies.pkl","wb"))
+time.sleep(5)
+pickle.dump( driver.get_cookies() , open("Github_cookies.pkl","wb"))
 
 print ("ho gya")
 
