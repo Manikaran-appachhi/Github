@@ -19,6 +19,7 @@ from bs4 import BeautifulSoup as soup
 from selenium.webdriver.common.keys import Keys
 from dotenv import load_dotenv
 import os
+import subprocess
 import pickle
 from collections import OrderedDict
 import re
@@ -29,29 +30,10 @@ import random
 import json
 
 
+load_dotenv() #loading enviornment variables
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-load_dotenv()
-
-
-
-def remove_duplicate(filename):
+def remove_duplicate(filename): #func that takes a file name and removes duplicates while keeping the order
 	b = list(OrderedDict.fromkeys([i.strip() for i in open(filename, 'r')]))
 	w=open(filename, 'w')
 
@@ -61,7 +43,7 @@ def remove_duplicate(filename):
 
 
 
-def verify_email(email):
+def verify_email(email): #takes email as input use bouncer api to verify status
 	
 	url = f"https://api.usebouncer.com/v1/email/verify?email={email}&timeout=10"
 
@@ -78,41 +60,41 @@ def verify_email(email):
 
 
 
-
+print ("execution started")
 options = Options()
+print ("options called")
 options.headless = True
 options.add_argument("user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166")
-
+print ("user-agents added")
 driver= webdriver.Firefox(options=options,executable_path="/usr/local/bin/geckodriver")
-git_obj=Github(driver)
-
-'''
-cookies = pickle.load(open("Github_cookies.pkl", "rb"))
-for cookie in cookies:
-   driver.add_cookie(cookie)
- '''
-git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
-
-time.sleep(5)
-pickle.dump( driver.get_cookies() , open("Github_cookies.pkl","wb"))
-
-print ("ho gya")
-
-
-flag=True
-
-df=pd.read_csv("new_testers_dataset.csv")
-new_df=pd.DataFrame(columns=["Name","Github","Email"])
+print("driver started")
 
 try:
 
+	git_obj=Github(driver)
+	print ("github class object created")
+	''' Can load previously generated sessions's cookies
+	cookies = pickle.load(open("Github_cookies.pkl", "rb"))
+	for cookie in cookies:
+	   driver.add_cookie(cookie)
+	 '''
+	git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+
+	#time.sleep(5)
+	#pickle.dump( driver.get_cookies() , open("Github_cookies.pkl","wb"))
+
+	print ("logged in to Github")
+
+
+	flag=True
+
+	df=pd.read_csv("new_testers_dataset.csv")
+	new_df=pd.DataFrame(columns=["Name","Github","Email"])
 	while flag:
 		remove_duplicate('new_testers.txt')
 		start_user=list(df['Github'])[-1]
 
-		print (1)
-
-
+		print ("removed duplicates from new_testers.txt")
 
 		testers=open('new_testers.txt', 'r')
 		there=[i.strip() for i in testers]
@@ -122,43 +104,51 @@ try:
 
 
 		to_start=there.index(start_user)+1
+		print (f"start index {to_start}")
 
-		print (len(there), len(set(there)))
+		print (f"number testers to get in this loop {len(there)}")
 
 		for num,tester in enumerate(there[to_start:]):
-			print (2)
+			print (f"getting tester {tester}")
 
 			git_obj.get_details(tester)
-			print (3)
+			print ("got details")
 			df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
-			print (4)
+			print ("added to dataset")
 			df.drop_duplicates(subset='Email', keep='first',inplace=True)
-			print (5)
 			df.to_csv("new_testers_dataset.csv", index=False)
-			print (6)
+			print ("saved dataset")
 
 			if (type(git_obj.Email)!=float):
-				print (7)
+				print ("email is present")
 
 				if git_obj.Email == list(df['Email'])[-1]:
 
 
 					print (git_obj.Email)
-				#t=time.localtime(time.time())
-				#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
+					#t=time.localtime(time.time())
+					#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
 
 					if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
-						print('deliverable ya risky')
+						print(' either email is deliverable or risky')
 
 						if num % 2==0:
 							listId=random.choice(['6123215','6283504','6283507','6283509'])
-							#new_df=pd.concat([new_df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)		
+							print ("added to campaigns")
 						else:
 							listId='6291305'
+							print ("added to Pradeep's list")
 
 						add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
 
-				
+					else:
+						print ("email is undeliverable")
+
+				else:
+					print ("email already exists in dataset")
+
+			else:
+				print ("email isn't present")	
 
 
 
@@ -168,25 +158,28 @@ try:
 			testers.close()
 			testers=open('new_testers.txt', 'a')
 
-			#time.sleep(5)
-
 			for user in git_obj.get_following(tester):
 				testers.write(user+'\n')
 			testers.close()
 			testers=open('new_testers.txt', 'a')
 
-			print (f"tester: {tester}")
+			print ("followers and followings added to the testers.txt")
 
-			#time.sleep(4)
 
-		to_start=tester
-		print (f"to_start: {to_start}")
+			time.sleep(4)
 
+		print ("one read of tester.txt executed")
 
 except:
 	flag= False
 	driver.close()
 	driver.quit()
+	l=[]
+	for i in (subprocess.check_output('ps -ef | grep geckodriver',shell=True).decode('utf-8')).split('\n')[:-2]:# stdout=subprocess.PIPE).stdout.decode('utf-8'))
+		l.append (i.split()[2])
+	for i in l:
+		print (f"killing {i}")
+		os.system(f"kill -9 {int(i)}")
 
 
 
