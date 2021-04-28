@@ -1,0 +1,512 @@
+1618460885285	geckodriver	INFO	Listening on 127.0.0.1:34637
+1618460886300	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileraDr3f"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:4785): GLib-GObject-CRITICAL **: 09:58:07.490: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:4804): GLib-GObject-CRITICAL **: 09:58:07.620: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:4872): GLib-GObject-CRITICAL **: 09:58:08.842: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618460889063	Marionette	INFO	Listening on port 33001
+1618460889126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+1618460938176	geckodriver	INFO	Listening on 127.0.0.1:56959
+1618460938180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley5E03i"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618460941151	Marionette	INFO	Listening on port 45919
+1618460941216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618461102206	geckodriver	INFO	Listening on 127.0.0.1:60591
+1618461102210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVDfxLH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618461105166	Marionette	INFO	Listening on port 43219
+1618461105234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618461108802	Marionette	INFO	Stopped listening on port 45919
+1618461119140	Marionette	INFO	Stopped listening on port 43219
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618476932246	geckodriver	INFO	Listening on 127.0.0.1:37183
+1618476932257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileponQ9p"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:10243): GLib-GObject-CRITICAL **: 14:25:33.808: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:10262): GLib-GObject-CRITICAL **: 14:25:33.995: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:10337): GLib-GObject-CRITICAL **: 14:25:36.052: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618476936075	Marionette	INFO	Listening on port 37619
+1618476936207	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+1618477231876	geckodriver	INFO	Listening on 127.0.0.1:50225
+1618477231906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB55o6N"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:10690): GLib-GObject-CRITICAL **: 14:30:33.452: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:10712): GLib-GObject-CRITICAL **: 14:30:33.645: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618477235489	Marionette	INFO	Listening on port 32887
+1618477235547	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10782): GLib-GObject-CRITICAL **: 14:30:35.553: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 455: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618477940866	geckodriver	INFO	Listening on 127.0.0.1:33195
+1618477940869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelddtii"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11339): GLib-GObject-CRITICAL **: 14:42:21.988: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11358): GLib-GObject-CRITICAL **: 14:42:22.087: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618477943214	Marionette	INFO	Listening on port 44359
+
+(/usr/lib/firefox/firefox:11430): GLib-GObject-CRITICAL **: 14:42:23.250: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618477943297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+1618478030191	geckodriver	INFO	Listening on 127.0.0.1:45545
+1618478030195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTHtpze"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11639): GLib-GObject-CRITICAL **: 14:43:51.347: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11660): GLib-GObject-CRITICAL **: 14:43:51.459: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:11745): GLib-GObject-CRITICAL **: 14:43:52.689: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618478032699	Marionette	INFO	Listening on port 34121
+1618478032719	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618478281431	geckodriver	INFO	Listening on 127.0.0.1:51653
+1618478281435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef0JRSh"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:12401): GLib-GObject-CRITICAL **: 14:48:02.583: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:12425): GLib-GObject-CRITICAL **: 14:48:02.720: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:12487): GLib-GObject-CRITICAL **: 14:48:03.928: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618478283933	Marionette	INFO	Listening on port 42469
+1618478283962	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618478336990	geckodriver	INFO	Listening on 127.0.0.1:59005
+1618478336995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAvyr6N"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:12665): GLib-GObject-CRITICAL **: 14:48:58.193: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:12684): GLib-GObject-CRITICAL **: 14:48:58.288: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618478339420	Marionette	INFO	Listening on port 33201
+
+(/usr/lib/firefox/firefox:12762): GLib-GObject-CRITICAL **: 14:48:59.458: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618478339594	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+1618478351590	geckodriver	INFO	Listening on 127.0.0.1:33575
+1618478351593	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGCQG4Y"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:12899): GLib-GObject-CRITICAL **: 14:49:12.738: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:12918): GLib-GObject-CRITICAL **: 14:49:12.839: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618478353934	Marionette	INFO	Listening on port 41987
+1618478354028	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12989): GLib-GObject-CRITICAL **: 14:49:14.040: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618826140968	geckodriver	INFO	Listening on 127.0.0.1:48933
+1618826140972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOr5ZwF"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11260): GLib-GObject-CRITICAL **: 15:25:42.166: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11281): GLib-GObject-CRITICAL **: 15:25:42.287: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618826143383	Marionette	INFO	Listening on port 43915
+
+(/usr/lib/firefox/firefox:11355): GLib-GObject-CRITICAL **: 15:25:43.436: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618826143507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+1618826167199	geckodriver	INFO	Listening on 127.0.0.1:38459
+1618826167203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCThHyv"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11490): GLib-GObject-CRITICAL **: 15:26:08.323: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11511): GLib-GObject-CRITICAL **: 15:26:08.448: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618826169518	Marionette	INFO	Listening on port 41687
+
+(/usr/lib/firefox/firefox:11582): GLib-GObject-CRITICAL **: 15:26:09.561: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618826169643	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 455: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618899460420	geckodriver	INFO	Listening on 127.0.0.1:39851
+1618899460424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehmOW2C"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16188): GLib-GObject-CRITICAL **: 11:47:41.866: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16205): GLib-GObject-CRITICAL **: 11:47:41.989: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:16271): GLib-GObject-CRITICAL **: 11:47:43.389: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618899463546	Marionette	INFO	Listening on port 38349
+1618899463663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+1618901469003	geckodriver	INFO	Listening on 127.0.0.1:57855
+1618901469008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB2Vh7U"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16857): GLib-GObject-CRITICAL **: 12:21:10.420: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16876): GLib-GObject-CRITICAL **: 12:21:10.581: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:16946): GLib-GObject-CRITICAL **: 12:21:12.112: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618901472227	Marionette	INFO	Listening on port 37767
+1618901472347	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B0008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1619497444076	geckodriver	INFO	Listening on 127.0.0.1:55577
+1619497445096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehXTIxV"
+*** You are running in headless mode.
+1619497445861	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:6570): GLib-GObject-CRITICAL **: 09:54:06.345: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:6586): GLib-GObject-CRITICAL **: 09:54:06.422: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619497448410	Marionette	INFO	Listening on port 46099
+
+(/usr/lib/firefox/firefox:6683): GLib-GObject-CRITICAL **: 09:54:08.413: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619497448525	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619497618129	geckodriver	INFO	Listening on 127.0.0.1:59663
+1619497618133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVA3WDh"
+*** You are running in headless mode.
+1619497618822	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:6998): GLib-GObject-CRITICAL **: 09:56:59.340: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:7014): GLib-GObject-CRITICAL **: 09:56:59.439: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619497621304	Marionette	INFO	Listening on port 38993
+
+(/usr/lib/firefox/firefox:7101): GLib-GObject-CRITICAL **: 09:57:01.348: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619497621371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619497683260	geckodriver	INFO	Listening on 127.0.0.1:42377
+1619497683265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSUdsBI"
+1619497684058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619497686266	Marionette	INFO	Listening on port 33555
+1619497686294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1619497695300	Marionette	INFO	Stopped listening on port 33555
+1619497923978	geckodriver	INFO	Listening on 127.0.0.1:55925
+1619497923983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVZ9qJ4"
+1619497924722	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619497926898	Marionette	INFO	Listening on port 41005
+1619497927022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619497941514	Marionette	INFO	Stopped listening on port 41005
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619497989228	geckodriver	INFO	Listening on 127.0.0.1:56257
+1619497989231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecgNqdm"
+1619497989995	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619497992367	Marionette	INFO	Listening on port 32817
+1619497992458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619498007791	Marionette	INFO	Stopped listening on port 32817
+1619498084384	geckodriver	INFO	Listening on 127.0.0.1:51103
+1619498084388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePOx8ze"
+1619498085093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619498087165	Marionette	INFO	Listening on port 40545
+1619498087220	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619498470671	geckodriver	INFO	Listening on 127.0.0.1:54087
+1619498470676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemHwQ8E"
+1619498471475	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619498473822	Marionette	INFO	Listening on port 37681
+1619498473922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619498699932	geckodriver	INFO	Listening on 127.0.0.1:44829
+1619498699936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek0jx2q"
+*** You are running in headless mode.
+1619498700640	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:8937): GLib-GObject-CRITICAL **: 10:15:01.101: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:8953): GLib-GObject-CRITICAL **: 10:15:01.170: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619498702584	Marionette	INFO	Listening on port 45827
+
+(/usr/lib/firefox/firefox:9023): GLib-GObject-CRITICAL **: 10:15:02.630: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619498702658	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619502982607	Marionette	INFO	Stopped listening on port 40545
+1619522141265	geckodriver	INFO	Listening on 127.0.0.1:46189
+1619522141269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHAjWGq"
+*** You are running in headless mode.
+1619522142002	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:14047): GLib-GObject-CRITICAL **: 16:45:42.469: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14063): GLib-GObject-CRITICAL **: 16:45:42.547: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619522144131	Marionette	INFO	Listening on port 35839
+
+(/usr/lib/firefox/firefox:14135): GLib-GObject-CRITICAL **: 16:45:44.185: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619522144195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619522298172	geckodriver	INFO	Listening on 127.0.0.1:34985
+1619522298176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesSG6ec"
+*** You are running in headless mode.
+1619522298895	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:14422): GLib-GObject-CRITICAL **: 16:48:19.358: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14438): GLib-GObject-CRITICAL **: 16:48:19.426: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619522300794	Marionette	INFO	Listening on port 42365
+
+(/usr/lib/firefox/firefox:14522): GLib-GObject-CRITICAL **: 16:48:20.794: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619522300968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://github.githubassets.com/assets/webgl-globe-a05cd4b5.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
