@@ -110,6 +110,7 @@ try:
 
 		for num,tester in enumerate(there[to_start:]):
 			print (f"getting tester {tester}")
+			time.sleep(3)
 
 			git_obj.get_details(tester)
 			print ("got details")
@@ -151,12 +152,14 @@ try:
 				print ("email isn't present")	
 
 
-
+			time.sleep(4)
 
 			for user in git_obj.get_followers(tester):
 				testers.write(user+'\n')
 			testers.close()
 			testers=open('new_testers.txt', 'a')
+
+			time.sleep(5)
 
 			for user in git_obj.get_following(tester):
 				testers.write(user+'\n')
