@@ -69,10 +69,12 @@ print ("user-agents added")
 driver= webdriver.Firefox(options=options,executable_path="/usr/local/bin/geckodriver")
 print("driver started")
 
+git_obj=Github(driver)
+
 try:
 
-	git_obj=Github(driver)
 	print ("github class object created")
+
 	''' Can load previously generated sessions's cookies
 	cookies = pickle.load(open("Github_cookies.pkl", "rb"))
 	for cookie in cookies:
@@ -113,7 +115,18 @@ try:
 			time.sleep(3)
 
 			git_obj.get_details(tester)
-			print ("got details")
+			print ("got details ")
+
+			if git_obj.check_login_status()=='logged_out':
+				print (1)
+				git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+				print (2)
+				print ("logged out")
+				
+			else:
+				print ("logged in probably")
+				pass
+
 			df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
 			print ("added to dataset")
 			df.drop_duplicates(subset='Email', keep='first',inplace=True)
@@ -173,17 +186,17 @@ try:
 
 		print ("one read of tester.txt executed")
 
+
 except:
 	flag= False
 	driver.close()
 	driver.quit()
 	l=[]
 	for i in (subprocess.check_output('ps -ef | grep geckodriver',shell=True).decode('utf-8')).split('\n')[:-2]:# stdout=subprocess.PIPE).stdout.decode('utf-8'))
-		l.append (i.split()[2])
+		l.append (i.split()[1])
 	for i in l:
 		print (f"killing {i}")
 		os.system(f"kill -9 {int(i)}")
-
 
 
 

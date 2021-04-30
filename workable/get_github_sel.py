@@ -163,6 +163,14 @@ class Github():
 		return (l)
 
 
+	def check_login_status(self):
+		try:
+			WebDriverWait(self.driver,10).until(EC.presence_of_element_located((By.XPATH, "//*[text()='Sign in to view email']")))
+			return "logged_out"
+		except:
+			return "logged_in"
+
+
 
 	def get_details(self,username):
 
