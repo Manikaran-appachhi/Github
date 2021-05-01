@@ -3,6 +3,8 @@ import json
 from dotenv import load_dotenv
 import os
 import numpy as np
+import pandas as pd
+import time
 
 load_dotenv()
 
@@ -24,7 +26,7 @@ def get_access_token():
 
 
 
-def add_prospect_to_list(email,fullName,firstName,listId):
+def add_prospect_to_list(listId=6418691,email=np.nan,fullName=np.nan,firstName=np.nan):
   token = get_access_token()
   params = {'access_token':token,
             'email':email,
@@ -43,4 +45,7 @@ def add_prospect_to_list(email,fullName,firstName,listId):
 
 
 if __name__=='__main__':
-  add_prospect_to_list(email="mani.da1739@gmail.com",firstName='Manikaran', lastName='Singh', fullName='Manikaran Singh',listId=6283504)
+  df=pd.read_csv("new_testers_dataset.csv")
+  for i in range(df.shape[0]):
+    add_prospect_to_list(email=df.loc[i,'Email'], fullName=df.loc[i,'Name'],listId=6418691)
+    time.sleep(5)
