@@ -148,12 +148,15 @@ try:
 
 						if num % 2==0:
 							listId=random.choice(['6123215','6283504','6283507','6283509'])
-							print ("added to campaigns")
+							print ("adding to campaigns")
 						else:
 							listId='6291305'
-							print ("added to Pradeep's list")
-
-						add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
+							print ("adding to Pradeep's list")
+						try:
+							add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
+							print ('added')
+						except:
+							print ('error, could not add')
 
 					else:
 						print ("email is undeliverable")
@@ -197,6 +200,7 @@ except:
 	for i in l:
 		print (f"killing {i}")
 		os.system(f"kill -9 {int(i)}")
+		os.system("nohup python3 -u get_github.py > github.logs 2>&1 &")
 
 
 
