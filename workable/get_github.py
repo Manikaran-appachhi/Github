@@ -140,20 +140,18 @@ try:
 
 
 					print (git_obj.Email)
-					#t=time.localtime(time.time())
-					#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
-
+					
 					if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
 						print(' either email is deliverable or risky')
 
-						if num % 2==0:
-							listId=random.choice(['6123215','6283504','6283507','6283509'])
-							print ("adding to campaigns")
-						else:
-							listId='6291305'
-							print ("adding to Pradeep's list")
+						#if num % 2==0:
+						#	listId=random.choice(['6123215','6283504','6283507','6283509'])
+						#	print ("adding to campaigns")
+						#else:
+						#	listId='6291305'
+						#	print ("adding to Pradeep's list")
 						try:
-							add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name[0], fullName=git_obj.Name,listId=listId)
+							add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name.split(' ')[0], fullName=git_obj.Name,listId=6418691)
 							print ('added')
 						except:
 							print ('error, could not add')
@@ -229,6 +227,8 @@ except:
 
 
 
+#t=time.localtime(time.time())
+					#print (f"{t.tm_mday}-{t.tm_mon}-{t.tm_year}")
 
 
 
