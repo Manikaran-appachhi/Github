@@ -128,8 +128,11 @@ try:
 			print ("got details")
 
 			if type(git_obj.Name)==float:
+				print ("name is nan now logging in")
 				git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+				print ("loged in")
 				git_obj.get_details(tester)
+				print ("got details again")
 
 
 
