@@ -114,18 +114,20 @@ try:
 			print (f"getting tester {tester}")
 			time.sleep(3)
 
-			git_obj.get_details(tester)
-			print ("got details ")
-
+			
 			if git_obj.check_login_status()=='logged_out':
-				print (1)
+				print ("we got logged out")
 				git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
-				print (2)
-				print ("logged out")
+				print ("now logged it")	
 				
 			else:
 				print ("logged in probably")
 				pass
+				
+			git_obj.get_details(tester)
+			print ("got details")
+			print (git_obj.Name)
+
 
 			df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
 			print ("added to dataset")
@@ -144,14 +146,14 @@ try:
 					if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
 						print(' either email is deliverable or risky')
 
-						#if num % 2==0:
-						#	listId=random.choice(['6123215','6283504','6283507','6283509'])
-						#	print ("adding to campaigns")
-						#else:
-						#	listId='6291305'
-						#	print ("adding to Pradeep's list")
+						if num % 2==0:
+							listId=random.choice(['6123215','6283504','6283507','6283509'])
+							print ("adding to campaigns")
+						else:
+							listId='6291305'
+							print ("adding to Pradeep's list")
 						try:
-							add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name.split(' ')[0], fullName=git_obj.Name,listId=6418691)
+							add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name.split(' ')[0], fullName=git_obj.Name,listId=listId)
 							print ('added')
 						except:
 							print ('error, could not add')

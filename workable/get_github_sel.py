@@ -223,6 +223,14 @@ if __name__=='__main__':
 	options.headless = False
 	driver= webdriver.Firefox(options=options)
 	git_obj=Github(driver)
+
+	git_obj.get_details("Kr00lIX")
+	time.sleep(1)
+#	print (git_obj.check_login_status())
+	if git_obj.check_login_status()=='logged_out':
+		git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+		print ("logged out")
+'''
 	git_obj.login("Manikaran20","@Manikaran20")
 
 
@@ -244,9 +252,9 @@ if __name__=='__main__':
 		print (count)
 
 
+'''
 
-
-		'''
+'''
 	for i in df['Github']:
 		for j in git_obj.get_following(i):
 			w.write(j+'\n')
@@ -256,10 +264,9 @@ if __name__=='__main__':
 			w.write(j+'\n')
 		w.close()
 		w=open("github_testers.txt",'a')
-		'''
+'''
 
-
-	'''
+'''
 	w=open("test_pages.txt",'w')
 
 	for i in l:
@@ -273,7 +280,7 @@ if __name__=='__main__':
 			w.write(i+'\n')
 			w.close()
 			w=open("test_pages.txt",'a')
-	'''
+'''
 	
 
 
