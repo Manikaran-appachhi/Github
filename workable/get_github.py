@@ -123,10 +123,16 @@ try:
 			else:
 				print ("logged in probably")
 				pass
-				
+
 			git_obj.get_details(tester)
 			print ("got details")
-			print (git_obj.Name)
+
+			if type(git_obj.Name)==float:
+				git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+				git_obj.get_details(tester)
+
+
+
 
 
 			df=pd.concat([df,pd.DataFrame({"Name":[git_obj.Name], "Github":[tester], "Email":[git_obj.Email]})],axis=0)
