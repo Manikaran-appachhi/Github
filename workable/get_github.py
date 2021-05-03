@@ -88,7 +88,7 @@ try:
 	print ("logged in to Github")
 
 
-
+	flag=True
 	df=pd.read_csv("new_testers_dataset.csv")
 	new_df=pd.DataFrame(columns=["Name","Github","Email"])
 	while flag:
@@ -130,22 +130,22 @@ try:
 
 			if type(git_obj.Name)==float:
 				if nan_count==0:
-					flag=True
+					Tflag=True
 				if nan_count<5:
-					if flag==True:
+					if Tflag==True:
 						print (f"name is nan {nan_count+1}")
 						nan_count+=1
 						continue
-					
+
 				else:
 					git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
 					print ("loged in")
 					git_obj.get_details(tester)
 					print ("got details again")
 					nan_count=0
-					flag=False
+					Tflag=False
 			else:
-				flag=False
+				Tflag=False
 				nan_count=0
 
 
