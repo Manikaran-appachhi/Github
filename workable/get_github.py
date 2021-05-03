@@ -88,7 +88,6 @@ try:
 	print ("logged in to Github")
 
 
-	flag=True
 
 	df=pd.read_csv("new_testers_dataset.csv")
 	new_df=pd.DataFrame(columns=["Name","Github","Email"])
@@ -110,6 +109,8 @@ try:
 
 		print (f"number testers to get in this loop {len(there)}")
 
+		nan_count=0
+
 		for num,tester in enumerate(there[to_start:]):
 			print (f"getting tester {tester}")
 			time.sleep(3)
@@ -128,11 +129,24 @@ try:
 			print ("got details")
 
 			if type(git_obj.Name)==float:
-				print ("name is nan now logging in")
-				git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
-				print ("loged in")
-				git_obj.get_details(tester)
-				print ("got details again")
+				if nan_count==0:
+					flag=True
+				if nan_count<5:
+					if flag==True:
+						print (f"name is nan {nan_count+1}")
+						nan_count+=1
+						continue
+					
+				else:
+					git_obj.login(os.getenv("GIT_USR"),os.getenv("GIT_PWD"))
+					print ("loged in")
+					git_obj.get_details(tester)
+					print ("got details again")
+					nan_count=0
+					flag=False
+			else:
+				flag=False
+				nan_count=0
 
 
 
