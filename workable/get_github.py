@@ -73,6 +73,7 @@ git_obj=Github(driver)
 
 try:
 
+
 	print ("github class object created")
 
 	''' Can load previously generated sessions's cookies
@@ -90,7 +91,8 @@ try:
 
 	flag=True
 	df=pd.read_csv("new_testers_dataset.csv")
-	new_df=pd.DataFrame(columns=["Name","Github","Email"])
+	new_df=pd.read_csv("Datasize_with_date.csv")
+	timeflag=True
 	while flag:
 		remove_duplicate('new_testers.txt')
 		start_user=list(df['Github'])[-1]
@@ -210,7 +212,25 @@ try:
 
 			time.sleep(4)
 
+			t=time.localtime(time.time())
+
+			if timeflag and t.tm_hour==11:
+				new_df=pd.concat([new_df,pd.DataFrame({"Date":[f'{t.tm_mday}-{t.tm_mon}-{t.tm_year}'],"Datasize":[df.shape[0]]})], axis=0)
+				new_df.to_csv("Datasize_with_date.csv", index=False)
+				timeflag=False
+
+			if t.tm_hour==12:
+				timeflag=True
+
+
+
+
+
 		print ("one read of tester.txt executed")
+
+
+
+
 
 
 except:
@@ -222,10 +242,6 @@ except:
 		print (f"killing {i}")
 		os.system(f"kill -9 {int(i)}")
 		os.system("nohup python3 -u get_github.py > github.logs 2>&1 &")
-
-
-
-
 
 
 
