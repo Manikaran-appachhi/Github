@@ -241,7 +241,20 @@ except:
 	for i in l:
 		print (f"killing {i}")
 		os.system(f"kill -9 {int(i)}")
-		os.system("nohup python3 -u get_github.py > github.logs 2>&1 &")
+
+	l=[]
+	
+	for i in (subprocess.check_output('ps -ef | grep geckodriver',shell=True).decode('utf-8')).split('\n')[:-2]:# stdout=subprocess.PIPE).stdout.decode('utf-8'))
+		l.append (i.split()[1])
+	for i in l:
+		print (f"killing {i}")
+		os.system(f"kill -9 {int(i)}")
+
+
+	
+
+	os.system("nohup python3 -u get_github.py > github.logs 2>&1 &")
+
 
 
 
