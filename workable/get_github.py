@@ -243,8 +243,8 @@ except:
 		os.system(f"kill -9 {int(i)}")
 
 	l=[]
-	
-	for i in (subprocess.check_output('ps -ef | grep geckodriver',shell=True).decode('utf-8')).split('\n')[:-2]:# stdout=subprocess.PIPE).stdout.decode('utf-8'))
+
+	for i in (subprocess.check_output('ps -ef | grep firefox',shell=True).decode('utf-8')).split('\n')[:-2]:# stdout=subprocess.PIPE).stdout.decode('utf-8'))
 		l.append (i.split()[1])
 	for i in l:
 		print (f"killing {i}")
