@@ -71,8 +71,8 @@ print("driver started")
 
 git_obj=Github(driver)
 
-try:
 
+try:
 
 	print ("github class object created")
 
@@ -171,12 +171,12 @@ try:
 					if verify_email(git_obj.Email)['status'] in ['deliverable', 'risky']:
 						print(' either email is deliverable or risky')
 
-						if num % 2==0:
-							listId=random.choice(['6123215','6283504','6283507','6283509'])
-							print ("adding to campaigns")
-						else:
-							listId='6291305'
-							print ("adding to Pradeep's list")
+						#if num % 2==0:
+						#	listId=random.choice(['6123215','6283504','6283507','6283509'])
+						#	print ("adding to campaigns")
+						#else:
+						listId='6291305'
+						print ("adding to Pradeep's list")
 						try:
 							add_prospect_to_list(email=git_obj.Email,firstName=git_obj.Name.split(' ')[0], fullName=git_obj.Name,listId=listId)
 							print ('added')
@@ -214,8 +214,10 @@ try:
 
 			t=time.localtime(time.time())
 
+
 			if timeflag and t.tm_hour==11:
-				new_df=pd.concat([new_df,pd.DataFrame({"Date":[f'{t.tm_mday}-{t.tm_mon}-{t.tm_year}'],"Datasize":[df.shape[0]]})], axis=0)
+				size=int(df.shape[0])-int(list(new_df['Datasize'])[-1])
+				new_df=pd.concat([new_df,pd.DataFrame({"Date":[f'{t.tm_mday}-{t.tm_mon}-{t.tm_year}'],"Datasize":[df.shape[0]], "Scraped":[size]})], axis=0)
 				new_df.to_csv("Datasize_with_date.csv", index=False)
 				timeflag=False
 
