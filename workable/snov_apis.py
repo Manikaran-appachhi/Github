@@ -42,6 +42,23 @@ def add_prospect_to_list(listId=6418691,email=np.nan,fullName=np.nan,firstName=n
   return json.loads(res.text)
 
 
+def add_prospect_to_list_with_custom(email,backlink_site,listId):
+  token = get_access_token()
+  params = {'access_token':token,
+            'email':email,
+            'customFields[backlink site]':backlink_site,
+            'listId':listId
+  }
+
+  res = requests.post('https://api.snov.io/v1/add-prospect-to-list', data=params)
+
+  return json.loads(res.text)
+
+
+
+  
+
+
 
 
 if __name__=='__main__':
