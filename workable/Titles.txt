@@ -1,0 +1,179 @@
+That's all folks!
+Test Leads - Where are they leading you to ?
+Hot ! Coffee Mug Story and Testing Lessons
+Technology that failed in India ( Testing Bowl of the world )
+Google talk(ed) to me / How to support a bug report ?
+Pandavas and their testing skills ! ( of course my own )
+Tester tested in interview(s) !
+Start ! 10 minutes later "A good start"
+Tools that slow you at work !
+Yahoo Messenger ! Missed Feature ?
+Testers who burnt their ears !
+Are you a Tester or Toolsmith ?
+Sir Thomas Alva Edison - The First Tester !
+Tester in Toilet !
+Monkey Tester and Peanuts !
+Bug Bugger Buggest !
+Dinosaur Egg - Testing
+Hiring Virus for Testing !
+Learnings from crash test dummies !
+Why Testing failed in a freshers mind ?
+Intel-igent Testers !
+Why do you need to be a Tester? Wherever you are …
+Bird eye view !
+We Model Testing
+Testing – Testing Indian Testers
+Tested for James Bond !
+How to prepare before a war (bug hunt) ?
+How do you explain testing to your children ?
+Prepaid bugs !
+Where can you find the best testers of the world ?
+Wild Wild Test !
+Manual Testing  -  no more a shit job !
+Tester in wonderland !
+Learning Testing from Japanese Fishermen
+Are  Experienced Software Testers Testing their own CV / Profile / Resume?
+Testing like Osama
+Programmer Tester V/s Non Programmer Tester
+Where excited testers go wrong?
+Every software tester should become a good developer of test ideas
+Time for Indian testers to be very proud
+Are you the good tester ISRO needs?
+Gold mines opening up for Indian Testers
+Lessons learnt from Junior Testers
+Self critique your testing skills
+The first customer is always a tester
+Million questions a tester should ask
+The bugs within a tester
+Why cant you test without documents?
+Being a tester V/s Working as a tester
+Test your interviewer
+The man who inspired me through his notes
+Injustice to testers - I fight
+Answering the telephone puzzle
+Testing puzzle at office
+Test your e-mail
+Indian testing community - start blogging!
+Test Consulting in 2007 by Tester Tested!
+Yahoo! we crashed the Messenger
+First attempt at Test Consulting : An experience report
+Know what you are asked to test - Audio podcast
+Are you one among the lucky 20 testers of the world?
+Rapid answers to rapid fire situations a tester faces
+Indian testers STEALING a testers creativity - STOP THEM
+The tester who tested his testers
+A study on Test Coaching in India
+Walking along Testers Street!
+Meet Michael Bolton in Bangalore Tester Meet
+Testing treasure for free
+Testing exercises, found everywhere
+I AM SATISFICED
+There is no four and six in testing!
+Tester Developer Relations - A study based on Indian context
+A tester's screen saver
+Bugs and emotions
+Mixing Scripted and Exploratory Testing
+The 2 hour Mirchi Test Masala
+Braidy Tester interviews Tester Tested
+The negatives of "negative testing"
+FAQ's to my rescue
+Exercises that exercise a testers mind - Workshop
+Letter from India
+Tester Tested interviews Braidy Tester
+Developers Developed by Tester Tested
+Shore, Offshore!
+Curiosity (,s)kills (and) bad testers
+Let the context drive and yet you be the chauffer
+Why is testing monotonous? The unspoken truth!
+Becoming a developer, who is less disturbed by a tester ( in 3 pages)
+A Tester's Personal Bug Diary & Notes
+A good tester clears traps. Who are you?
+Apology to my dearmost readers
+How does Testing look from the eyes of Tester Tested?
+The story of a monk who sold bugs!
+Pradeep fails BBST & continues to seek the Holy Grail
+Notes from spying test experts
+Mother Nature - A teacher of all good testers
+Learning & On demand lectures & Challenging the challengers
+Test Case Passed! Who cares?
+The most challenging software testing quiz online
+Tester Tested! coming soon to your city
+How to show product quality? - (Uncensored Version)
+E go U go I go of U and I
+Ants solve problems that testers struggle to!
+Jony Jony, Yes Papa! Following Process, Yes Papa! Telling Lies, Ha ha ha!
+Second time, a company in India wants to hire testers in a non traditional way
+Great testing stories from India (Created by Not Following Any "Best Practices")
+"If you can see it in your mind, you will find it in your life" -- Scott Barber
+Progress Report 2007 of Pradeep Soundararajan
+The Bangalore Roti Curry! Now comes with free* testing lessons
+Educating customers on testing
+Schools of testing, Test experts, and Blood bath - Why do they exist?
+Graphology, Music, Chess, Cooking, Drawing and becoming a better tester
+Automation replaces humans - The truth about what kind of humans it replaces
+Using "testing" || Abusing "testing"
+Reduce Reuse Recycle
+It's a "tester" who finds a bug, even with the robust Google Search
+The (bad) state of software testing interviews in India
+Letter to myself
+Most test cases fail
+Heroes of software testing - Do you know about them and their work?
+Happy testing and Sad Testing
+Testing to avoid being sued or embarrased
+Exploratory Software Testing Demonstration Videos
+Testing the number of years of software testing experience
+Your search for Bug Free Software ends here
+Grammy Award for Michael Bolton and others
+Rating testers based on number of bugs they find - It's definitely possible
+Hands on software testing training - Change we need!
+Learning to test better by teaching testing
+Progress Report 2008 :: Pradeep Soundararajan
+Karnataka state missing from official Indian government website
+Excerpts from participants work - Practical Hands on Software Testing Training
+Audio Podcast :: What Software Testing Could Be?
+Checkmate heuristic :: A security testing attack
+Bangalore Workshop on Software Testing - BWST - 1
+Change in hiring and interviewing process in India for software testing and software testers
+Testing Experience Magazine : The voice of ISTQB
+Collection of Notes & Experiences: Bangalore Workshop on Software Testing 1
+Video : Against Best Practices in Software Testing :: Oredev 08
+Why good software testers should come out of the well?
+Attractive professions and software testing
+Secrets of a Buccaneer Scholar : Free Download Limited Period
+Testers & Blocks Consulting - Puzzle 1
+Bangalore Weekend Testers: Fun, Learn & Contribute
+Traditional Software Testing Process - The cash cow demystified
+Approaches for interviewing in software testing - Book Kickoff & Launch of Interviews & Jobs portal
+Title 1: Investment plans for software testers. Title 2: Michael Bolton RST training in India
+Testers & Blocks Consulting - Puzzle 2
+Weekend Testing : 16 : Test and Experience Report
+Rahul Verma on Fuzzing for software testers : Nov 23, 2009
+Why testers need to learn to write code that works?
+Black Viper Testing Technique
+Test effort estimation: Getting it wrong before getting it right
+Coaching testers on Bug Reports, Advocacy & Credibility
+Finding Nemo Answers: Shmuel, William & Bangladesh Testers
+Follow your own style
+Bangalore Workshop on Software Testing - 2 on 3rd April
+Progress Report 2009 : Pradeep Soundararajan
+Test coverage : Life beyond functionality
+Experience Report : BWST 2
+Saving your job versus speaking truth
+Experience report of testing versus checking
+Usability of usability & performance of performance
+Tour of being an independent test consultant
+Heart of a tester
+What is our competition on?
+BPO / Support / Call Center / Homemaker to Software Testing
+The domain particle
+Help Chandru to live his testing dreams
+Software testing black swan bites cause pain
+News - Moolya Software Testing Private Limited launched
+Are there any software testing blogs from Indians that are really Indian?
+Future of Indian software testing looks safe
+Who is making software testers, dumb and bad?
+Story of how a hang becomes a crash (because testers love reporting crashes)
+the 5 years of blogging as Tester Tested
+Three new good things about Indian testers
+Who do you think is the legend behind the success of all these leading testers?
+Evolving styles & small "e" exploratory testing
